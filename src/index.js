@@ -30,7 +30,7 @@ import  ReactDOM  from "react-dom/client";
                    if(!this.state.lat && this.state.errorMessage){
                        return <div>Error : {this.state.errorMessage}</div>   
                    }
-                    return <div>Loding</div>
+                    return <div>Loding...</div>
                     
                 
     }   } 
