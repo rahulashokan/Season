@@ -19,6 +19,7 @@ import SeasonDisplay from "./SeasonDisplay";
                     
 
                    if(this.state.lat && !this.state.errorMessage) {
+                    console.log(this.state.lat);
                        return<SeasonDisplay lat={this.state.lat}/>
                    }
                    if(!this.state.lat && this.state.errorMessage){
